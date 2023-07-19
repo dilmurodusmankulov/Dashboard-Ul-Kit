@@ -1,0 +1,62 @@
+.sidebar {
+  background-color: rgba(37, 39, 51, 1);
+  width: 20vw;
+  height: 200vh;
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+
+  padding: 40px 24px;
+}
+.sidebar-header h1 {
+  margin-left: 10px;
+  color: #a4a6b3;
+  font-family: Muli;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  opacity: 0.699999988079071;
+}
+.btn {
+  display: block;
+  color: #a4a6b3;
+  font-family: Muli;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.sidebar-btn {
+  width: 100%;
+  background-color: transparent;
+  padding: 18px 24px;
+  border: none;
+  cursor: pointer;
+  color: #9fa2b4;
+  display: flex;
+  align-items: center;
+  transition: all ease 0.3s;
+  border-left: 3px solid transparent;
+}
+.sidebar-btn .img {
+  fill: #dde2ff;
+  opacity: 0.4;
+}
+.sidebar-btn:hover {
+  background-color: rgba(159, 162, 180, 0.06);
+  transition: all ease 0.3s;
+  border-left: 3px solid white;
+}
+.sidebar-btn .title:hover {
+  color: #fafafa;
+}
+.sidebar-btn .img:hover {
+  opacity: 1;
+}
+.sidebar-btn .title {
+  margin-left: 24px;
+}

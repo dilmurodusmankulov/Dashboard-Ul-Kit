@@ -1,0 +1,14 @@
+.container__navbar {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 36px 30px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__left .headings__navbar {
+  width: 60%;
+}
